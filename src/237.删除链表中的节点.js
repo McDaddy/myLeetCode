@@ -15,11 +15,7 @@
  * @return {void} Do not return anything, modify node in-place instead.
  */
 var deleteNode = function(node) {
-    assss
+    node.val = node.next.val;
+    node.next = node.next.next;
 };
-
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
 
