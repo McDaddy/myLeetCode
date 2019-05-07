@@ -1,13 +1,13 @@
 {
   "extends": "tslint-config-airbnb",
-  // "linterOptions": {
-  //   "include": [
-  //     "app/"
-  //   ],
-  //   "exclude": [ // not work
-  //     "__mocks__"
-  //   ]
-  // },
+  "linterOptions": {
+    "include": [
+      "src/"
+    ],
+    "exclude": [ // not work
+      "node_modules/**"
+    ]
+  },
   // 规则自定义
   "rules": {
     "no-unused-expression": [
